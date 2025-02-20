@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <script src="script.js" defer></script>
+
+        <title>storage testing</title>
+    </head>
+    <body>
+
+
+        <span>
+            <label for="productPrice">$</label>
+            <input type="text" name="productPrice" id="productPrice">
+            <button onclick="incrementSessionByNum('priceTotal','productPrice')">Change Amount</button>
+        </span>
+        <br>
+        <span>
+            <p class="inline">Subtotal:</p> <div class="inline" id="output2"></div><br>
+            <p class="inline">Tax:  +</p> <div class="inline" id="output3"></div><p class="inline">%</p> <br>
+            <br>
+            <p class="inline">Total: $</p><div class="inline" id="output4"></div>
+        </span>
+    </body>
+</html>
