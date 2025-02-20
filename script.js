@@ -61,6 +61,7 @@ function incrementSessionByNum() {
 function display() {
 
     output2.innerHTML = sessionStorage.getItem("priceTotal");
+
     output3.innerHTML = sessionStorage.getItem("tax%");
 
     // calculate total
